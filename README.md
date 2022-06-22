@@ -1,4 +1,4 @@
-# How to program
+# How to program in JavaScript
 
 # setup 
 [install node](https://nodejs.org/en/download/)  

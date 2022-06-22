@@ -27,20 +27,20 @@ When reading javascript, most code can be grouped into one of the following fund
 6. function declaration
    1. function keyword `function function_name(param) { … }`
    2. arrow operator  `() => { … } `
-7. class declaration  
+7. [class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) declaration  
    `class MyClass extends SuperClass {...}`
-8. function/method call  
+8. [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)/method call  
     1. function `function_name(param1, param2)` 
     2. method call `obj.method_name(param1, param2)`
     3. object constructor creates a new object. `new Object()`
-9.  import statement
+9.  [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) statements  
 10. conditional statements: if/else statement, switch statements   
     `if ( expression ) `
 11. [loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)  
     1. [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) loop  `for(let i = 0; i < 9; i++){ ... }`  
     2. [for... in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
     3. [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while) `while(expression){...}`
-12. try catch blocks
+12. [try, catch, finally](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) blocks
     `try {
         ...
     } catch (e){
