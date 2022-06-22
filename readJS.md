@@ -19,9 +19,9 @@ When reading javascript, most code can be grouped into one of the following fund
 4. [operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
     1. [assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment) `=`  
         includes [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
-    2. math `+ - * / ()`
-    3. logical `&& || !`
-    4. comparison `< > == ===`
+    2. [math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#arithmetic_operators) `+ - * / ()`
+    3. [logical](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#logical_operators) and, or, not `&& || !`
+    4. [comparison](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison_operators) `< > <= >= === !== `
     5. [spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) `…`
 5. [function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) or [function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function)
    1. function keyword `function function_name(param) { … }`
@@ -46,7 +46,7 @@ When reading javascript, most code can be grouped into one of the following fund
         ...
     }`
 
-13. [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) statements  
+12. [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) statements  
 
 Javascript code composes these constructs and can be read as in the following examples.  
 `let foo = 0;`  
