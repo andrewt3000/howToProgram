@@ -8,4 +8,4 @@ node hello.js
 hello.js - hello world.  
 parameters.js - illustrates that primitive function parameters are copied and objects are passed by reference.
 
-
+[how to read javascript](readJS.md)
