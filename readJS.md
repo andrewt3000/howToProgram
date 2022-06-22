@@ -1,5 +1,5 @@
 # How to read javascript
-When reading javascript, most code can be grouped into one of the following categories. Learning to read and identify these categories is important.  
+When reading javascript, most code can be grouped into one of the following fundamental constructs. Learning to read and identify these constructs is critical for reading code. Each construct has common example code and links to documentation.  
 
 1. variable declaration. (includes function/method parameters)  
    `let x;`  
@@ -17,7 +17,7 @@ When reading javascript, most code can be grouped into one of the following cate
 4. access a variable or object property
     1. variable_name  
     2. obj.property_name
-5. operators
+5. [operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
     1. assignment `=`  
         includes [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
     2. math `+ - * / ()`
@@ -27,23 +27,28 @@ When reading javascript, most code can be grouped into one of the following cate
 6. function declaration
    1. function keyword `function function_name(param) { … }`
    2. arrow operator  `() => { … } `
-7. function/method call  
+7. class declaration  
+   `class MyClass extends SuperClass {...}`
+8. function/method call  
     1. function `function_name(param1, param2)` 
     2. method call `obj.method_name(param1, param2)`
     3. object constructor creates a new object. `new Object()`
-8. import statement
-9.  if / else statement  
+9.  import statement
+10. conditional statements: if/else statement, switch statements   
     `if ( expression ) `
-10. loops  
-    `for()`  
-    `foreach()`  
-    `while(expression)`
-11. try catch blocks
+11. [loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)  
+    1. [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) loop  `for(let i = 0; i < 9; i++){ ... }`  
+    2. [for... in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
+    3. [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while) `while(expression){...}`
+12. try catch blocks
     `try {
         ...
     } catch (e){
         ...
     }`
-12. return statement
+13. return statement
 
 
+Javascript code composes these constructs and can be read as in the following examples.  
+`let foo = 0;`  
+The literal(3) value 0 is assigned(5) to the newly declared variable(1) foo.  
