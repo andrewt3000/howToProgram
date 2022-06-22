@@ -4,7 +4,7 @@ When reading javascript, most code can be grouped into one of the following fund
 1. variable declaration. (includes function/method parameters)  
    `let x;`  
 2. constant declaration   
-   `const pi = 3.146;` 
+   `const pi = 3.1416;` 
 3. literals 
     1. boolean  `true false`
     2. number `3.1416`
@@ -24,12 +24,12 @@ When reading javascript, most code can be grouped into one of the following fund
     3. logical `&& || !`
     4. comparison `< > == ===`
     5. spread `…`
-6. function declaration
+6. [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) declaration
    1. function keyword `function function_name(param) { … }`
    2. arrow operator  `() => { … } `
 7. [class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) declaration  
    `class MyClass extends SuperClass {...}`
-8. [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)/method call  
+8. function/method call  
     1. function `function_name(param1, param2)` 
     2. method call `obj.method_name(param1, param2)`
     3. object constructor creates a new object. `new Object()`
