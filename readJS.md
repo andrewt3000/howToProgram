@@ -26,13 +26,13 @@ When reading javascript, most code can be grouped into one of the following fund
 5. [function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) or [function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function)
    1. function keyword `function function_name(param) { … }`
    2. [arrow/lambda](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) functions  `() => { … } `
-6. [class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) declaration  
+6. [return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return) statement
+7. [class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) declaration  
    `class MyClass extends SuperClass {...}`
-7. function/method call  
+8. function/method call  
     1. function `function_name(param1, param2)` 
     2. method call `obj.method_name(param1, param2)`
     3. object constructor creates a new object. `new Object()`
-8. [return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return) statement
 9.  conditional statements: [if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) statement, switch statements   
     `if ( expression ) `
 10. [loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)  
