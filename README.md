@@ -1,8 +1,8 @@
 # How to program
 
 # setup 
-install node  
-learn to use the command line  
+[install node](https://nodejs.org/en/download/)  
+node hello.js
 
 # lessons
 hello.js - hello world.  
