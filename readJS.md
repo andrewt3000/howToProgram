@@ -23,9 +23,9 @@ When reading javascript, most code can be grouped into one of the following fund
     3. logical `&& || !`
     4. comparison `< > == ===`
     5. [spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) `…`
-5. [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) declaration
+5. [function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) or [function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function)
    1. function keyword `function function_name(param) { … }`
-   2. arrow operator  `() => { … } `
+   2. [arrow/lambda](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) functions  `() => { … } `
 6. [class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) declaration  
    `class MyClass extends SuperClass {...}`
 7. function/method call  
