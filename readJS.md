@@ -22,7 +22,7 @@ When reading javascript, most code can be grouped into one of the following fund
     2. math `+ - * / ()`
     3. logical `&& || !`
     4. comparison `< > == ===`
-    5. spread `…`
+    5. [spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) `…`
 5. [function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) declaration
    1. function keyword `function function_name(param) { … }`
    2. arrow operator  `() => { … } `
@@ -32,7 +32,7 @@ When reading javascript, most code can be grouped into one of the following fund
     1. function `function_name(param1, param2)` 
     2. method call `obj.method_name(param1, param2)`
     3. object constructor creates a new object. `new Object()`
-8.  [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) statements  
+8. [return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return) statement
 9.  conditional statements: [if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) statement, switch statements   
     `if ( expression ) `
 10. [loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)  
@@ -45,8 +45,8 @@ When reading javascript, most code can be grouped into one of the following fund
     } catch (e){
         ...
     }`
-12. return statement
 
+13. [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) statements  
 
 Javascript code composes these constructs and can be read as in the following examples.  
 `let foo = 0;`  
