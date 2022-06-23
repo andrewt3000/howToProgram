@@ -1,4 +1,4 @@
-# How to read javascript
+# Javascript fundamental constructs
 When reading javascript, most code can be grouped into one of the following fundamental constructs. Learning to read and identify these constructs is critical for reading code. Each construct has common example code and links to documentation.  
 
 1. [variable declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#declarations) (includes function/method parameters)  
@@ -26,7 +26,7 @@ When reading javascript, most code can be grouped into one of the following fund
 5. [function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)  
    1. function declaration `function function_name(param) { ... }`
    2. [function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function) `const function_name = (param){ ... }`
-   3. [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) functions  `() => { ... } `
+   3. [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)  `() => { ... } `
 6. [return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return) statement
 7. [class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) declaration  
    `class MyClass extends SuperClass {...}`
