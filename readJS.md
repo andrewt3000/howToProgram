@@ -50,6 +50,9 @@ When reading javascript, most code can be grouped into one of the following fund
 
 12. [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) statements  
 
+* [Comments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#comments) don't affect Javascript programs.  
+
+## Reading Javascript
 Javascript code composes these constructs and can be read as in the following examples.  
 `let foo = 0;`  
-The literal(3) value 0 is assigned(5) to the newly declared variable(1) foo.  
+The literal(2) value 0 is assigned(4) to the newly declared variable(1) foo.  

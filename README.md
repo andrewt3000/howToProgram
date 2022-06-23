@@ -10,5 +10,5 @@
 `node hello.js`
 3. read [javascript fundamental constructs](readJS.md)
 
-4. run parameters.js - illustrates that primitive function parameters are copied and objects are passed by reference.
+4. run parameters.js - illustrates that primitive function parameters are copied and objects are passed by reference.  
 `node parameters.js`
