@@ -35,7 +35,7 @@ When reading javascript, most code can be grouped into one of the following fund
     2. method call `obj.method_name(param1, param2)`
     3. object constructor creates a new object. `new Object()`
 9.  conditional statements: [if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) statement, switch statements   
-    `if ( expression ) `
+    `if ( expression ) {...}  `
 10. [loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)  
     1. [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) loop  `for(let i = 0; i < 9; i++){ ... }`  
     2. [for... in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) `for (const property in object) {...}`
