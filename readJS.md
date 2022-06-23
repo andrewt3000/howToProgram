@@ -1,4 +1,4 @@
-# Javascript fundamental constructs
+# Reading Javascript: fundamental constructs
 When reading javascript, most code can be grouped into one of the following fundamental constructs. Learning to read and identify these constructs is critical for reading code. Each construct has common example code and links to documentation.  
 
 1. [variable declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#declarations) (includes function/method parameters)  

@@ -6,7 +6,7 @@
 
 ## lessons
 1. [command line interface](cli.md) 
-2. [javascript fundamental constructs](readJS.md)  
+2. [Reading Javascript: fundamental constructs](readJS.md)  
 3. [networking for programmers](networking.md)  
 4. [single page apps](spa.md)
 5. [database](db.md)
