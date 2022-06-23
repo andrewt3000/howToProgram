@@ -15,7 +15,7 @@ When reading javascript, most code can be grouped into one of the following fund
     8. [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) default value of unassigned variables `undefined`
 3. access a variable or object property
     1. variables are accessed by their name `variable_name` 
-    2. object properties are accessed by dot notation. `obj.property_name`
+    2. object properties are accessed by dot notation `object.property` or by bracket notation `object["property"]`
     3. arrays values are accessed by index `array_name[0]`
 4. [operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
     1. [assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment) `=`  
