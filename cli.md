@@ -27,9 +27,9 @@ GUI shell includes the desktop, the Mac dock, and Windows start menu.
 It runs program by clicking the program icon with mouse.  
 You navigate and manage file system through the Mac Finder or the Windows File Explorer.
 
-**How does the command line work?**
-the command line is a [repl](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop). 
-repl = read, execute, print, loop.  
+**How does the command line work?**  
+the command line is a [repl](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop).  
+repl is an acronym for read, execute, print, loop.  
 The user types in the command and hits enter, the cli reads the command, executes the command, prints the output, and loops by presenting the user with another command prompt.  
 
 **what are common file system navigation commands?**  
