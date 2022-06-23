@@ -11,7 +11,8 @@
 4. [single page apps](spa.md)
 5. [database](db.md)
 6. [My preferred web stack](https://github.com/andrewt3000/web_development#web-development)
-7. [How to create an app login](login.md)
+7. [How to create an app login](login.md)  
+8. [Writing software services](https://medium.com/@andrewt3000/writing-a-software-service-7e26ba99645c)
 
 
 ## example programs
