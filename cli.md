@@ -15,7 +15,7 @@ The command line is a [shell](https://en.wikipedia.org/wiki/Shell_(computing)). 
 3. Cli programs are composable. They can be used in combination by redirecting output or piping. There are things that can’t be done with gui programs.  
 
 **How do I run the command line?**  
-In Visula Studio, there is an [integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal).
+In Visual Studio, there is an [integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal).
 
 On a mac, the default command line interface is the terminal application.  
 You can use spotlight, by typing command space, and type in “terminal”  
@@ -23,18 +23,23 @@ You can use spotlight, by typing command space, and type in “terminal”
 Windows has dos and power shell. 
 
 **How does a  cli compare to a GUI shell?**  
-GUI shell includes the desktop, the Mac dock, windows start menu.
+GUI shell includes the desktop, the Mac dock, and Windows start menu.
 It runs program by clicking the program icon with mouse.  
-You navigate and manage file system through the Mac Finder or Windows File Explorer.
+You navigate and manage file system through the Mac Finder or the Windows File Explorer.
 
+**How does the command line work?**
+the command line is a [repl](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop). 
+repl = read, execute, print, loop.  
+The user types in the command and hits enter, the cli reads the command, executes the command, prints the output, and loops by presenting the user with another command prompt.  
 
-<command> <arguments>
-repl = read, execute, print, loop
-
-**what are common commands?**  
-pwd - print working directory  
-ls - list files  (dir on dos)  
-cd <directory> - change directory  
+**what are common file system navigation commands?**  
+**\# print working directory**  
+pwd  
+**\# list files**  
+ls  
+**\# change directory**  
+cd \<directory>  
+**\# go up a directory**  
 cd ..  
 
 
