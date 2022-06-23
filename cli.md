@@ -1,7 +1,7 @@
 # Command Line Interface FAQ
 
 **What is the Command-line interface (cli)?**  
-The command line is a [shell](https://en.wikipedia.org/wiki/Shell_(computing)). It's a text based user interface that allows you to:  
+The command line is a [shell](https://en.wikipedia.org/wiki/Shell_(computing)). It's a text based user interface that allows access to operating system functions such as:  
 1. run computer programs  
 2. navigate the file system  
 

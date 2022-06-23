@@ -5,9 +5,13 @@
 2. [download and install visual studio community](https://visualstudio.microsoft.com/vs/community/)
 
 ## lessons
-1. [command line interface faq](cli.md) 
+1. [command line interface](cli.md) 
 2. [javascript fundamental constructs](readJS.md)  
 3. [networking for programmers](networking.md)  
+4. [single page apps](spa.md)
+5. [database](db.md)
+6. [My preferred tech stack](https://github.com/andrewt3000/web_development#web-development)
+
 
 ## example programs
 1. run hello.js  
@@ -15,4 +19,4 @@
 2. run parameters.js - illustrates that primitive function parameters are copied and objects are passed by reference.  
 `node parameters.js`
 
-![alt text](img/hello.png)
+![hello world](img/hello.png)
