@@ -6,7 +6,7 @@ The command line is a [shell](https://en.wikipedia.org/wiki/Shell_(computing)). 
 2. navigate the file system  
 
 **Why is the cli important to computer programmers?**  
-1. There are many programs, and programming tools that are designed to run from the command line. Examples include:  
+1. There are many programming tools that are designed to run from the command line. Examples include:  
    1. [node](https://nodejs.org/en/) javascript runtime
    2. npm - node package manager (part of node)
    3. [git](https://git-scm.com/downloads) source control  
