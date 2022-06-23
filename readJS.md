@@ -25,7 +25,7 @@ When reading javascript, most code can be grouped into one of the following fund
     5. [spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) `…`
 5. [function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) or [function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function)
    1. function keyword `function function_name(param) { … }`
-   2. [arrow/lambda](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) functions  `() => { … } `
+   2. [arrow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) functions  `() => { … } `
 6. [return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return) statement
 7. [class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) declaration  
    `class MyClass extends SuperClass {...}`
@@ -37,8 +37,9 @@ When reading javascript, most code can be grouped into one of the following fund
     `if ( expression ) `
 10. [loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)  
     1. [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) loop  `for(let i = 0; i < 9; i++){ ... }`  
-    2. [for... in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
-    3. [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while) `while(expression){...}`
+    2. [for... in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) `for (const property in object) {...}`
+    3. [for... of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) `for (let element of arr) {...}`
+    4. [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while) `while(expression){...}`
 11. [try, catch, finally](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) blocks
     `try {
         ...
