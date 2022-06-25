@@ -7,7 +7,7 @@ When reading javascript, most code can be grouped into one of the following fund
 2. [literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#literals)  
     1. boolean  `true false`
     2. number `3.1416`
-    3. string `"hello world"`
+    3. string `"hello world"` (single quotes, double quotes or [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals))
     4. regular expression `/pattern/modifier`
     5. array  `[]`
     6. object `{ prop: 1, prop2: “x”}`
