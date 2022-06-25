@@ -2,7 +2,7 @@
 When reading javascript, most code can be grouped into one of the following fundamental constructs. Learning to read and identify these constructs is critical for reading code. Each construct has common example code and links to documentation.  
 
 1. [variable declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#declarations)  
-   1. variable declaration `let x;`  
+   1. variable declaration `let foo;`  
    2.  constant declaration `const pi = 3.1416;` 
 2. [literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#literals)  
     1. boolean  `true false`
@@ -14,7 +14,7 @@ When reading javascript, most code can be grouped into one of the following fund
     7. [null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null) intentional absence of a value `null`
     8. [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) default value of unassigned variables `undefined`
 3. access a variable or object property
-    1. variables are accessed by their name `variable_name` 
+    1. variables are accessed by their name `foo` 
     2. object properties are accessed by dot notation `object.property` or by bracket notation `object["property"]`
     3. arrays values are accessed by index `array_name[0]`
 4. [operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
