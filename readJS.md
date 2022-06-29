@@ -17,6 +17,7 @@ When reading javascript, most code can be grouped into one of the following fund
     1. variables are accessed by their name `foo` 
     2. object properties are accessed by dot notation `object.property` or by bracket notation `object["property"]`
     3. arrays values are accessed by index `array_name[0]`
+    4. In a class declaration, use the `this` keyword to access the current object. `this.propertyName`
 4. [operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
     1. [assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment) `=`  
         includes [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
@@ -24,6 +25,7 @@ When reading javascript, most code can be grouped into one of the following fund
     3. [logical](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#logical_operators) and, or, not `&& || !`
     4. [comparison](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison_operators) `< > <= >= === !== `
     5. [spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) `...`
+    6. [typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof) [instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
 5. [function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)  
    1. function declaration `function function_name(param) { ... }`
    2. [function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function) `const function_name = (param){ ... }`
