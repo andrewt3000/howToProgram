@@ -56,17 +56,19 @@ Modify the index.tsx to contain the routes.
 Modify App.tsx to contain header/menus and Outlet for pages.  
 Use css grid? or Layout/Grid/Menu of your ui package?
 
-
-
 ## Setup Ajax library
 Install fetch api library  
 ``` console
 npm install --save @types/isomorphic-fetch  
 ```
-setup webpack proxy  
-package.json -> "proxy": "http://localhost:3001",  
-create code to connect to api  
+[Proxy api requests in developement](https://create-react-app.dev/docs/proxying-api-requests-in-development/)
+In package.json 
+```
+"proxy": "http://localhost:3001",  
+```
+Or use environment variables to specify the server url which can be different in development and production.  
 
+Create common code to connect to api that handles authentication.   
 
 	
 ## Setup api

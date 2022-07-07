@@ -10,7 +10,9 @@ html ```class``` attribute is ```className``` in jsx.
 Wrap javascript code in jsx with curly braces { } 
 
 ## Components
-props are read only  
+A functional react component returns one or more react elements.  
+
+[props are read only](https://reactjs.org/docs/components-and-props.html#props-are-read-only)  
 
 How to pass through all functinality a wrapped component.
 ```javascript
