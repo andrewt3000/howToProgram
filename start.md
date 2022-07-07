@@ -76,21 +76,21 @@ Node / Express api
 npm install express-generator -g
 # creates a project in directory "api"
 express api
+# copy react git ignore to api
+cp web/.gitignore api/.gitignore
 cd api
 npm install
 npm start
 ```
+change port from 3000, to 3001 to avoid conflicting with react app.   
 
-look at package.json for scripts.start file. change to index.js?
-
-setup nodemon: 
+## setup nodemon: 
 ```
 npm install nodemon
 ```
-change package.json start to “nodemon index.js”  
-find a good index file for directory structure for routes and controllers.  
+change package.json start from node to nodemon.    
 
-## Api authentication
+<!-- ## Api authentication
 ```
 npm install jsonwebtoken  
 ```
@@ -99,6 +99,7 @@ https://github.com/andrewt3000/metal_view/blob/master/server/routes/core/login.j
 
 in routing verify the token.
 https://github.com/andrewt3000/metal_view/blob/master/server/app.js
+--->
 
 ### Setup database
 Choose db? sql, no-sql.  Native driver? ORM?  
@@ -110,7 +111,7 @@ create .gitignore to ignore node_modules for server.
 ```
 git init my_project   
 cd my_project
-git add server web
+git add api web
 ````
 
 create project on github (check private/public!!)  
