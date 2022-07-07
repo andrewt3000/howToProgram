@@ -6,12 +6,13 @@
 
 ## Fundamental Lessons
 1. [command line interface](cli.md) 
-2. [Reading Javascript: fundamental constructs](readJS.md)  
+2. [reading javascript: fundamental constructs](readJS.md)  
 3. [networking for programmers](networking.md)  
 4. [single page apps](spa.md)
 5. [database](db.md)
-6. [My preferred web stack](https://github.com/andrewt3000/web_development#web-development)
+6. [preferred web stack](https://github.com/andrewt3000/web_development#web-development)
 7. [start a web project](start.md)
+8. [react basics](react.md)
 
 
 ## example programs
