@@ -11,6 +11,7 @@
 4. [single page apps](spa.md)
 5. [database](db.md)
 6. [My preferred web stack](https://github.com/andrewt3000/web_development#web-development)
+7. [start a web project](start.md)
 
 
 ## example programs
