@@ -22,3 +22,26 @@ const MyTable = props => (
     </Table>
 )
 ```
+
+## Rules of hooks
+Hooks work only in functional components (not classes).  
+Hooks can’t be in conditional statements and must be at the top of the function. They must be called in the same order.  
+
+## State hooks
+state hooks use array destructuring syntax to return the variable for the state value and the setter. The parameter to useState is the initial value.  
+```
+const[count, setCount] = useState(0)
+```
+
+## Effect hooks
+```useEffect``` handles lifecycle events.   
+The first parameter to useEffect is the function execute.  
+The second parameters is an array of variables that triggers side effects.  
+If the second parameter is an empty array, it indicates to fire when the component has mounted.  
+If the second parameter is not incllude, it indicates to fire on every render.  
+```
+useEffect(() => {
+    // Update the document title using the browser API
+    document.title = `You clicked ${count} times`;
+  }, []);
+```

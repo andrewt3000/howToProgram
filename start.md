@@ -88,7 +88,7 @@ change port from 3000, to 3001 to avoid conflicting with react app.
 
 ## setup nodemon: 
 ```
-npm install nodemon
+ npm i nodemon --save-dev
 ```
 change package.json start from node to nodemon.    
 
