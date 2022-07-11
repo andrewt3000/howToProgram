@@ -1,4 +1,4 @@
-# How To Start a Project
+# How To Start a Web Project
 
 This is an example of how to set up a type react/node project.
 
@@ -16,20 +16,10 @@ Create a react project named "web" using [create react app](https://create-react
 
 ```
 # create react typescript project named "web"
-npx create-react-app web --template typescript
+npx create-react-app web
 cd web
 npm start
 ```
-<!-- Or Create a react/redux project named "web" using [redux tookit](https://redux.js.org/introduction/installation)
-
-```
-# Redux + Plain JS template
-npx create-react-app web --template redux
-
-# Redux + TypeScript template
-npx create-react-app web --template redux-typescript
-```
---->
 Change the title of the app in 
 ```
 web/public/index.html
