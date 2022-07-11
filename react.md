@@ -41,7 +41,6 @@ If the second parameter is an empty array, it indicates to fire when the compone
 If the second parameter is not incllude, it indicates to fire on every render.  
 ```
 useEffect(() => {
-    // Update the document title using the browser API
-    document.title = `You clicked ${count} times`;
+    // code runs after component mounts
   }, []);
 ```

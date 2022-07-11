@@ -48,19 +48,19 @@ npm install react-router-dom@6
 ```
 [get started with react router](https://reactrouter.com/docs/en/v6/getting-started/overview)  
 
-Modify the index.tsx to contain the routes.  
+Modify the index.js to contain the routes.  
 <!--- -authentication? auth0, jwt. (install jwt on server side) --->
 
 
 ## Create a layout
-Modify App.tsx to contain header/menus and Outlet for pages.  
+Modify App.js to contain header/menus and Outlet for pages.  
 Use css grid? or Layout/Grid/Menu of your ui package?
 
 ## Setup Ajax library
-Install fetch api library  
-``` console
-npm install --save @types/isomorphic-fetch  
-```
+<!-- Install fetch api library  
+ ``` console
+npm install --save isomorphic-fetch  
+```--->
 [Proxy api requests in developement](https://create-react-app.dev/docs/proxying-api-requests-in-development/)
 In package.json 
 ```
