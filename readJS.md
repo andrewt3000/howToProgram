@@ -51,7 +51,7 @@ When reading javascript, most code can be grouped into one of the following fund
     3. [for... of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) `for (let element of arr) {...}`
     4. [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while) `while(expression){...}`
     5. [break](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break) and [continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue) statements can be use to control loop behavior.  
-    6. Another common way to loop through an array is with the [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) method. This is a method call from a fundamental constructs perspective.  
+    6. Another common way to loop through an array is with the Array [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) or [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) method. This is a method call from a fundamental constructs perspective.  
 10. [try, catch, finally](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) blocks
     `try {
         ...
