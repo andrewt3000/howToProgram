@@ -12,9 +12,9 @@ Some examples of relational databases include:
 
 ## Sql statements
 1. [select](https://www.w3schools.com/sql/sql_select.asp) statement gets data
-2. [insert](https://www.w3schools.com/sql/sql_insert.asp) inserts records
-3. [update](https://www.w3schools.com/sql/sql_update.asp) updates records
-4. [delete](https://www.w3schools.com/sql/sql_delete.asp) deletes records
+2. [insert](https://www.w3schools.com/sql/sql_insert.asp) creates new records
+3. [update](https://www.w3schools.com/sql/sql_update.asp) updates existing records
+4. [delete](https://www.w3schools.com/sql/sql_delete.asp) deletes existing records
 
 ## Normalization
 Database [normalization](https://en.wikipedia.org/wiki/Database_normalization) is a best practice that prevents the duplication of data, and maintains integrity of the data.   
