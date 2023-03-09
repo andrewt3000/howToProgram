@@ -17,7 +17,7 @@ Some examples of relational databases include:
 4. [delete](https://www.w3schools.com/sql/sql_delete.asp) deletes records
 
 ## Normalization
-Database [normalization](https://en.wikipedia.org/wiki/Database_normalization) is a best practice.  
+Database [normalization](https://en.wikipedia.org/wiki/Database_normalization) is a best practice. It prevents the duplication of data.   
 
 1. All tables should have a [primary key](https://en.wikipedia.org/wiki/Primary_key) that is immutable.  
 2. All tables that reference another table should have a foreign key. This maintains [referential integrity](https://en.wikipedia.org/wiki/Referential_integrity). It also allows data to updated in one place and it's updated for all the references.  
