@@ -28,32 +28,33 @@ When reading javascript, most code can be grouped into one of the following fund
     4. [comparison](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison_operators) `< > <= >= === !== `
     5. [spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) `...`
     6. [typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof) [instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
-6. Functions  
-   1. [function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) `function function_name(param) { ... }`
-   2. [function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function) `const function_name = (param){ ... }`
-   3. [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)  `() => { ... } `
-   4. functions have optional parameters that are similar to variable declarations.  
-   5. functions can contain an optional [return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return) statement
-   6. functions have the option of being [async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) 
-7. function/method call  
-    1. function `function_name(param1, param2)` 
-    2. method call `obj.method_name(param1, param2)`
-    3. object constructor creates a new object. `new Object()`
-    4. asnyc functions can use [await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await) to wait on a promise to be fulfilled. 
-    5. When a function is [immediately invoked](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) it combines the declaration and the call.  
-8. [class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) declaration  
-   `class MyClass extends SuperClass {...}`
-
-9.  conditional statements: [if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) statement, [switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch) statements.   
+6.  conditional statements: [if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else) statement, [switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch) statements.   
     1. `if ( expression ) {...}  `
     2. the [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) can also be used for conditional statements. `condition ? exprIfTrue : exprIfFalse`
-10.  [loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)  
+7.  [loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)  
     1. [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for) loop  `for(let i = 0; i < 9; i++){ ... }`  
     2. [for... in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) `for (const property in object) {...}`
     3. [for... of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) `for (let element of arr) {...}`
     4. [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while) `while(expression){...}`
     5. [break](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break) and [continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue) statements can be use to control loop behavior.  
     6. Another common way to loop through an array is with the Array [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) or [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) method. This is a method call from a fundamental constructs perspective.  
+
+8. Functions    
+   1. [function declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function) `function function_name(param) { ... }`
+   2. [function expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function) `const function_name = (param){ ... }`
+   3. [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)  `() => { ... } `
+   4. functions have optional parameters that are similar to variable declarations.  
+   5. functions can contain an optional [return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return) statement
+   6. functions have the option of being [async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) 
+0. function/method call  
+    1. function `function_name(param1, param2)` 
+    2. method call `obj.method_name(param1, param2)`
+    3. object constructor creates a new object. `new Object()`
+    4. asnyc functions can use [await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await) to wait on a promise to be fulfilled. 
+    5. When a function is [immediately invoked](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) it combines the declaration and the call.  
+1-. [class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) declaration  
+   `class MyClass extends SuperClass {...}`
+
 11. [try, catch, finally](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) blocks
     `try {
         ...
