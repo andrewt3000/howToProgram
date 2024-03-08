@@ -52,7 +52,7 @@ When reading javascript, most code can be grouped into one of the following fund
     3. object constructor creates a new object. `new Object()`
     4. asnyc functions can use [await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await) to wait on a promise to be fulfilled. 
     5. When a function is [immediately invoked](https://developer.mozilla.org/en-US/docs/Glossary/IIFE) it combines the declaration and the call.  
-1-. [class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) declaration  
+10. [class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) declaration  
    `class MyClass extends SuperClass {...}`
 
 11. [try, catch, finally](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) blocks
